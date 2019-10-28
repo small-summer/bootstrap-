@@ -1,0 +1,198 @@
+body,button,input,select,h3,h4,h6{
+	font-family: "microsoft yahei";
+}
+/*header部分*/
+.head-top{
+	background: #5FA022;
+	padding: 0.8em 0;
+}
+.navbar-brand{padding: 0 0;}
+.navbar-brand>img{
+	height: auto;
+	margin-right: 5px;
+	margin-top: 5px;
+	width: 250px;
+}
+.navbar-default{
+	padding: 1.5em 0;
+	background-color: #F2F0F1;
+	box-shadow: 12px -5px 39px -12px;
+}
+.navbar-default .navbar-nav>li a{
+	top: 10px;
+	padding: 0.5em 3em;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 1.2em;
+	color: #919191;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+	background: #9FCDFF;
+	border-radius: 3px;	
+	color: white;
+}
+.navbar-right>a{
+	color: #d96b66;
+	text-decoration: none;
+}
+@media(max-width:970px ) {
+	.navbar-default .navbar-nav>li a{
+		font-size: 1.1em;
+	}
+}
+/*搜索模块*/
+.search{
+	background-image: url(../img/tonglan.png);
+	background-size: cover;
+	min-height: 400px;
+	margin-top: -20px;
+}
+.reservation{
+	padding: 60px 60px;
+	width: 50%;
+	background: rgba(255,255,255,0.7);
+	margin: 0 auto;
+	margin-top: 5%;
+	font-weight: 500;
+	color: #f2f0f1;
+	font-size: 1.2em;
+	outline: none;
+}
+.btn{
+	width: 50%;
+	background: #d96b66;
+	color: #fff;
+	padding: 5px;
+	border: none;
+	border-radius: 10px;
+}
+.form-control{
+	color: #8e908d;	
+}
+.btnsearch{
+	text-align: center;
+}
+@media (max-width: 768px) {
+	.reservation{
+		padding: 20px 20px;
+		width: 90%;
+	}
+}
+/*热卖商品*/
+.hot{
+	border: 1px solid #eee;
+	padding: 3em 0;
+	margin: 0   0;
+}
+.hot h3{
+	margin-top: -20px;
+	color: #1a1a1a;
+	font-size: 1.5em;
+	font-weight: 600;
+	margin: 0 0 1em;
+	padding: 0 0 0.5em;
+	border-bottom: 2px solid #eee;
+}
+.hot p{
+	color: #5fa022;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.8em;
+	margin: 1em 0;
+}
+.hot h6{
+	color: orange;
+	font-size: 1.5em;
+	font-weight: 400;
+	margin: 0.3em 0;
+}
+.morebtn{
+	display: block;
+	font-size: 1em;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+	background: #d96b66;
+	padding: 10px 18px;
+	transition: 0.5s all ease;
+	border-radius: 5px;
+}
+.morebtn:hover{
+	background: deepskyblue;
+	text-decoration: none;
+}
+@media (max-width:1024px ) {
+	.morebtn{
+		max-width: 410px;
+	}
+}
+/*特色推荐*/
+.navbar-brand>img{
+	height: auto;
+	width: 250px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.nav-pills>li>a{
+	color: #8E908D;
+}
+.nav-pills>li .active>a,.nav-pills>li .active>a:focus,
+.nav-pills>li .active>a:hover{
+	color: #fff;
+	background-color: #5a9522;
+}
+.choose{
+	border: 1px solid silver;
+}
+.tab-content{
+	margin: 5px;
+	text-align: center;
+}
+/*轮播广告*/
+.pic{
+	margin: 0 auto;
+	width: 800px;
+	padding: 20px;
+}
+.carousel{
+	background: white;
+}
+@media  (max-width:992px ) {
+	.pic{
+		width: 415px;
+	}
+}
+/*footer部分*/
+.footer p{
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.8em;
+	vertical-align: middle;
+	margin: 0.4em    0;
+}
+.footer p a{
+	color: #fff;
+	text-decoration: none;
+}
+.footer{
+	padding: 1em 0;
+	background-color: #D96B66;
+}
+.footer-right ul{
+	padding: 0;
+}
+.footer-right li{
+	display: inline-block;
+	margin: 0 1em;
+}
+.footer-left{
+	float: left;
+}
+.footer-right{
+	float: right;
+}
+.glyphicon{
+	font-size: 1.2em;
+	color: #F2F0F1;
+}
